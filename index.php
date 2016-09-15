@@ -7,11 +7,19 @@ include_once 'php/consults.php';
 
 switch (@$_REQUEST['option']) {
     case 'home':
-    if (isset($_SESSION['idUsu'])) {
         $include='html/home.php';
-    }else{
-        header("location:?option=home.php");
-      }
+        break;
+    case 'proin':
+        $include = 'html/proin.php';
+        break;
+    case 'video':
+        $include = 'html/video_pro.php';
+        break;
+    case 'informacion':
+        $include = 'html/informacion.php';
+        break;
+    case 'inscripcion':
+        $include = 'html/inscripcion.php';
         break;
     case 'logout':
         session_unset();
@@ -22,6 +30,14 @@ switch (@$_REQUEST['option']) {
 
         $include='html/home.php';
         break;
+
+        //case 'home':
+    // if (isset($_SESSION['idUsu'])) {
+    //     $include='html/home.php';
+    // }else{
+    //     header("location:?option=home.php");
+    //   }
+    //     break;
 }
 
 ?>
@@ -32,12 +48,20 @@ switch (@$_REQUEST['option']) {
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>INITEC WEB</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
 	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- 	<link rel="stylesheet" href="css/bootstrap.min.css"> -->
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-		<?php include $include; ?>
+
+
+
+    <?php include ('html/header.php'); ?>
+  
+        <?php include $include; ?>
+
+		
     
     <?php
     require ('html/footer.php');

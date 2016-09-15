@@ -1,6 +1,9 @@
-$(document).ready(function(){
-    $('#media').carousel({
-    pause: true,
-    interval: 3000,
-  });
+$(document).ready(function() {
+  
+  
 });
+
+function color_sel(opc){
+	$(opc).addClass('selected_opc');
+	
+}

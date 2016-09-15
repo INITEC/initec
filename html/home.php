@@ -1,46 +1,4 @@
-  <nav class="navbar navbar-inverse">
-    <div class="navbar-header">
-    	<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
-			<span class="sr-only">Toggle navigation</span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		</button>
-		<a class="navbar-brand" href="#"><img src="" alt="Logo Initec"></a>
-	</div>
-	
-	<div class="collapse navbar-collapse js-navbar-collapse">
-		<!-- <ul class="nav navbar-nav">
-			<li class="dropdown mega-dropdown">
-				<a href="#" class="data-toggle" data-toggle="dropdown">Home</a>				
-								
-			</li>
-            <li class="dropdown mega-dropdown">
-    			<a href="#" class="data-toggle" data-toggle="dropdown">About </a>				
-								
-			</li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Contact</a></li>
-		</ul> -->
-        <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown mega-dropdown">
-			<a href="#" class="data-toggle" data-toggle="dropdown">Home</a>				
-		</li>
-        <li class="dropdown mega-dropdown">
-            <a href="#" class="data-toggle" data-toggle="dropdown">About</a>             
-        </li>
-        <li class="dropdown mega-dropdown">
-            <a href="#" class="data-toggle" data-toggle="dropdown">Products</a>             
-        </li>
-        <li class="dropdown mega-dropdown">
-            <a href="#" class="data-toggle" data-toggle="dropdown">Contact</a>             
-        </li>
-        
-        <li><button class="btn btn-info text-center log">Loguin</button></li>
-      </ul>
-	</div><!-- /.nav-collapse -->
-  </nav>
-
+  
   <!---  SLIDER FOTO -->
 <section class="jk-slider">
     <div id="carousel-example" class="carousel slide" data-ride="carousel">
@@ -52,68 +10,69 @@
 
   <div class="carousel-inner">
     <div class="item active">
-      <a href="#"><img src="img/img1.jpg" class="slider" /></a>
-      	<div class="hero">
+      <a href="#"><img src="img/img3.jpg" class="slider" /></a>
+      	<!-- <div class="hero">
         <hgroup>
             <h1>Search for</h1>        
             <h3>the books you need and save ! </h3>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
         </hgroup>
         
-      </div>
+      </div> -->
+    </div> 
+    <div class="item">
+      <a href="#"><img src="img/img2.jpg" class="slider" /></a>
+      <!-- <div class="hero">
+        <hgroup>
+            <h1>Search for</h1>        
+            <h3>the books you need and save ! </h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+        </hgroup>
+        
+      </div> -->
     </div>
     <div class="item">
-      <a href="#"><img src="img/img1.jpg" class="slider" /></a>
-      <div class="hero">
+      <a href="#"><img src="img/img1.jpg" class="slider"  /></a>
+      <!-- <div class="hero">
         <hgroup>
             <h1>Search for</h1>        
             <h3>the books you need and save ! </h3>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
         </hgroup>
         
-      </div>
-    </div>
-    <div class="item">
-      <a href="#"><img src="img/img1.jpg" class="slider" /></a>
-      <div class="hero">
-        <hgroup>
-            <h1>Search for</h1>        
-            <h3>the books you need and save ! </h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
-        </hgroup>
-        
-      </div>
+      </div> -->
     </div>
   </div>
 
-  <!-- <a class="left carousel-control" href="#carousel-example" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a> -->
+ 
 </div>
 	
 </section>
 <div class="container">
 	<div class="services">
         <h1 class="text-center">
-            ¿Que te ofrecemos?
+            IMPLEMENTA ALGO NOVEDOSO
         </h1>
         <div class="ofert col-sm-4">
-            <h3 class="tittle">Programas de emprendimiento</h3>
+            <img src="img/esp1.jpg" class="img-responsive   inter" alt="img1">
+            <a href="?option=proin"><h3 class="tittle">Programa de preincubación</h3></a>
+            <div class="raya"></div>
             <div class="content">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio vitae, neque, fugiat quasi libero doloribus ea eius alias, vero nam facere dolor voluptatibus quis nisi officia harum iure explicabo. Perspiciatis.
             </div>
         </div>
         <div class="ofert col-sm-4">
-            <h3 class="tittle">Cursos Libres</h3>
+            <img src="img/esp2.jpg" class="img-responsive   inter" alt="img1">
+            <h3 class="tittle">Programa de  <br> incubación</h3>
+            <div class="raya"></div>
             <div class="content">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio vitae, neque, fugiat quasi libero doloribus ea eius alias, vero nam facere dolor voluptatibus quis nisi officia harum iure explicabo. Perspiciatis.
             </div>
         </div>
         <div class="ofert col-sm-4">
-            <h3 class="tittle">Aula virtual</h3>
+            <img src="img/IMG_1709.jpg" class="img-responsive   inter" alt="img1">
+            <h3 class="tittle">programa de aceleración</h3>
+            <div class="raya"></div>
             <div class="content">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio vitae, neque, fugiat quasi libero doloribus ea eius alias, vero nam facere dolor voluptatibus quis nisi officia harum iure explicabo. Perspiciatis.
             </div>
@@ -124,55 +83,43 @@
             Aliados estrategicos
         </h1>
         <div class="slide-allies">
-            <div class='row'>
-                <div class='col-md-12'>
-                  <div class="carousel slide media-carousel" id="media">
-                    <div class="carousel-inner">
-                      <div class="item  active">
-                        <div class="row">
-                          <div class="col-md-4">
-                            <a class="thumbnail" href="#"><img alt="" src="img/sena.png"></a>
-                          </div>          
-                          <div class="col-md-4">
-                            <a class="thumbnail" href="#"><img alt="" src="img/escudo_uni.png"></a>
-                          </div>
-                          <div class="col-md-4">
-                            <a class="thumbnail" href="#"><img alt="" src="img/aiesec-logo.png"></a>
-                          </div>        
-                        </div>
+           <div class='row'>
+            <div class='col-md-12'>
+              <div class="carousel slide allies" id="media">
+                <div class=" mov">
+                  <div class="item  active">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <a class="" href="#"><img class="allies-init" alt="" src="img/AIESEC-logo.png"></a>
+                      </div>          
+                      <div class="col-md-3">
+                        <a class="" href="#"><img class="allies-init" alt="" src="img/cienciaactiva-2.png"></a>
                       </div>
-                      <div class="item">
-                        <div class="row">
-                          <div class="col-md-4">
-                            <a class="thumbnail" href="#"><img alt="" src="img/model.png"></a>
-                          </div>          
-                          <div class="col-md-4">
-                            <a class="thumbnail" href="#"><img alt="" src="img/model.png"></a>
-                          </div>
-                          <div class="col-md-4">
-                            <a class="thumbnail" href="#"><img alt="" src="img/model.png"></a>
-                          </div>        
-                        </div>
+                      <div class="col-md-3">
+                        <a class="" href="#"><img class="allies-init" alt="" src="img/concytec_logo.png"></a>
                       </div>
-                      <div class="item">
-                        <div class="row">
-                          <div class="col-md-4">
-                            <a class="thumbnail" href="#"><img alt="" src="img/model.png"></a>
-                          </div>          
-                          <div class="col-md-4">
-                            <a class="thumbnail" href="#"><img alt="" src="img/model.png"></a>
-                          </div>
-                          <div class="col-md-4">
-                            <a class="thumbnail" href="#"><img alt="" src="img/model.png"></a>
-                          </div>      
-                        </div>
-                      </div>
+                      <div class="col-md-3">
+                        <a class="" href="#"><img class="allies-init" alt="" src="img/Escudo_UNI.png"></a>
+                      </div>         
                     </div>
-                    <a data-slide="prev" href="#media" class="left carousel-control">‹</a>
-                    <a data-slide="next" href="#media" class="right carousel-control">›</a>
-                  </div>                          
+                  </div>
+                  <div class="item">
+                    <div class="row">
+                      <div class="col-md-3"></div>
+                      <div class="col-md-3">
+                        <a class="" href="#"><img class="allies-baj" alt="" src="img/logo sena.png"></a>
+                      </div>
+                      <div class="col-md-3">
+                        <a class="" href="#"><img class="allies-baj" alt="" src="img/yabt-logo-secundario.png"></a>
+                      </div>        
+                      <div class="col-md-3"></div>
+                    </div>
+                  </div>
                 </div>
-              </div>
+            
+              </div>                          
+            </div>
+          </div> 
         </div>
     </div>
 
