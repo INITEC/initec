@@ -11,7 +11,7 @@
             <h3 class="modal-title" id="lineModalLabel">Cambiar Contraseña</h3>
         </div>
         <div class="modal-body">
-            
+             
             <!-- content goes here -->
             <form>
               <div class="form-group">

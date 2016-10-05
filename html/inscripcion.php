@@ -29,7 +29,7 @@
             <div class="form-group col-md-12">
                 <label for="DNI" class="col-md-3 pos-lab control-label">DNI:</label>
                 <div class="col-md-6">
-                    <input type="text" class="form-control" id="DNI">
+                    <input type="number" class="form-control" id="DNI">
                 </div>
             </div>
             <div class="form-group col-md-12">
@@ -83,14 +83,17 @@
         </h1>
         <div class="col-md-3"></div>
         <div class="rule1 col-md-7">
-            <p>1. Hacer el pago a cuenta corriente: En moneda nacional ($/.) BCP: 191-2279261-0-37 </p>
-            <p>Código de Cuenta intercambio: 00219100227926503754</p>
-        </div>
+            <p>1. Hacer el pago a cuenta corriente: En moneda nacional (S/.) BCP: <strong>191-2279261-0-37 </strong></p>
+            <p>Código de Cuenta intercambio: <strong>00219100227926503754</strong></p>
+        </div> 
         <div class="col-md-3"></div>
         <div class="col-md-7">
             <p>Titular: Nedaca S.A.C</p>
             <p>2. Sube la imagén del boucher de pago.</p>
-            <input type="file"> <br>
+            <span class="btn btn-default btn-file">
+                <input type="file" id="carg">    
+            </span>
+             <br>
         </div>
        <!--  <div class="col-md-3"></div>
         <div class="file col-md-6">

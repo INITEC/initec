@@ -1,5 +1,6 @@
+
 <div class="banner">
-	<img src="img/IMG_1709.jpg" class="banner" alt="Programas de preincubación">
+	<img src="img/esp1.jpg" class="banner" alt="Programas de preincubación">
 	<div class="hero_pro">
 		<hgroup>
 			<h1 class="ini">Search for</h1>        
@@ -9,17 +10,19 @@
 			<button class="btn btn-info">Más información</button>
 		</hgroup>
 
-	</div>
+	</div> 
 </div>
 
 <div class="infograma">
-	<img src="img/infograma.jpg" class="infog" alt="Infograma Proin">
+	<!-- <img src="img/infograma.jpg" class="infog" alt="Infograma Proin"> -->
 </div>
 <div class="cursos">
+
 	<div class="col-md-2 col-xs-1"></div>
 	<div class="principales col-md-4 col-sm-5 col-xs-12">
 		<h2 class="text-center tip_cur">Cursos principales</h2>
-		<table class="table">
+		<div class="cur_prin"></div>
+		<!-- <table class="table">
 			<thead class="conte">
 				<th class=" btn-success text-center "><a href="?option=video">Principales 1</a></th>
 			</thead>
@@ -66,11 +69,12 @@
 					<td>xc</td>
 				</tr>
 			</tbody>
-		</table>
+		</table> -->
 	</div>
 	<div class="complementarios col-xs-12 col-sm-5 col-md-4">
 		<h2 class="text-center tip_cur">Cursos complementarios</h2>
-		<table class="table">
+		<div class="cur_comp"></div>
+		<!-- <table class="table">
 			<thead class="conte">
 				<th class="text-center btn-info"><a href="?option=informacion">Complementario 1</a></th>
 			</thead>
@@ -117,15 +121,16 @@
 					<td>xc</td>
 				</tr>
 			</tbody>
-		</table>
+		</table> -->
 	</div>
 	<div class="col-xs-1 col-md-2"></div>
 </div>
-<div class="historias">
 	<div class="text-center col-xs-12">
 		<h1>Historias de éxito</h1>
 	</div>
-	<div class="col-xs-12 col-sm-6 col-md-4 vid">
+<div class="historias">
+	
+	<!-- <div class="col-xs-12 col-sm-6 col-md-4 vid">
 		<iframe width="400" height="200" src="https://www.youtube.com/embed/s6ltxWAY_uA" frameborder="0" allowfullscreen></iframe>
 		<h3 class="text-center tittle">Jair Franco</h3>
 		<p class="text-center msj-vid">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates perspiciatis placeat ullam omnis tempore corporis pariatur nam, aperiam commodi unde, amet, minus suscipit similique earum sint voluptatum eligendi cupiditate quae!</p>
@@ -136,17 +141,17 @@
 		<p class="text-center msj-vid">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro odio provident laboriosam perferendis perspiciatis aliquam. Esse odit, dicta deleniti nemo at veniam illo corporis, excepturi aliquam facilis quibusdam obcaecati, tempora!</p>
 	</div>
 	<div class="col-xs-12 col-sm-6 col-md-4 vid">
-		<iframe width="400" height="200" src="https://www.youtube.com/embed/e-8BHHY63ew" frameborder="0" allowfullscreen></iframe>	
-		<h3 class="text-center tittle">Jose Céspedes</h3>
+		<iframe width="400" height="200" src="https://www.youtube.com/embed/1Or2dIAkTL0" frameborder="0" allowfullscreen></iframe>	
+		<h3 class="text-center tittle">John Mendoza</h3>
 		<p class="text-center msj-vid">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, laboriosam, possimus aliquam aut tempora facilis minus quam sit. Assumenda vero itaque hic distinctio ipsum sed, quae, veniam ex id ad!</p>
-	</div>
+	</div> -->
 </div>
 <div class="gallery">
 	<div class="text-center col-xs-12">
 		<h1>Galería</h1>
 	</div>
-	<div id="images">
-		<div class="col-xs-12 col-sm-7">
+	<div id="images_galeria">
+		<!-- <div class="col-xs-12 col-sm-7">
 			<img class="gale enc" src="img/img_gallery_4.jpg" alt="">
 		</div>
 		<div class="col-xs-12 col-sm-5">
@@ -160,7 +165,7 @@
 		</div>
 		<div class="col-xs-12 col-md-4">
 			<img class="gale" src="img/img_gallery_3.jpg" alt="">
-		</div>
+		</div> -->
 
 	</div>
 </div>
