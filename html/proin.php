@@ -1,6 +1,6 @@
 
 <div class="banner">
-	<img src="img/esp1.jpg" class="banner" alt="Programas de preincubación">
+	<!-- <img src="img/esp1.jpg" class="banner" alt="Programas de preincubación">
 	<div class="hero_pro">
 		<hgroup>
 			<h1 class="ini">Search for</h1>        
@@ -10,7 +10,7 @@
 			<button class="btn btn-info">Más información</button>
 		</hgroup>
 
-	</div> 
+	</div>  -->
 </div>
 
 <div class="infograma">
@@ -18,8 +18,8 @@
 </div>
 <div class="cursos">
 
-	<div class="col-md-2 col-xs-1"></div>
-	<div class="principales col-md-4 col-sm-5 col-xs-12">
+	<div class="col-md-1 col-xs-1"></div>
+	<div class="principales col-md-5 col-sm-12 col-lg-5 col-xs-12">
 		<h2 class="text-center tip_cur">Cursos principales</h2>
 		<div class="cur_prin"></div>
 		<!-- <table class="table">
@@ -71,7 +71,7 @@
 			</tbody>
 		</table> -->
 	</div>
-	<div class="complementarios col-xs-12 col-sm-5 col-md-4">
+	<div class="complementarios col-xs-12 col-sm-12 col-md-5 col-lg-5">
 		<h2 class="text-center tip_cur">Cursos complementarios</h2>
 		<div class="cur_comp"></div>
 		<!-- <table class="table">
@@ -128,7 +128,7 @@
 	<div class="text-center col-xs-12">
 		<h1>Historias de éxito</h1>
 	</div>
-<div class="historias">
+<div class="historias col-xs-12">
 	
 	<!-- <div class="col-xs-12 col-sm-6 col-md-4 vid">
 		<iframe width="400" height="200" src="https://www.youtube.com/embed/s6ltxWAY_uA" frameborder="0" allowfullscreen></iframe>

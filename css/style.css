@@ -233,6 +233,9 @@ div.raya{
 }
 }
 @media screen and (min-width: 768px) and (max-width: 1041px){
+  .vid{
+    margin-left: 5%;
+  }
   .btn-loge{
   margin-left: 15px ! important;
 }
@@ -270,6 +273,9 @@ div.raya{
   }
 }
 @media screen and (max-width: 535px){
+  .vid{
+    margin-left: 6%;
+  }
   .nc{
     margin-left: 5%;
   }
@@ -536,8 +542,8 @@ img.allies-baj{
 /* VIDEOS DE HISTORIAS DE EXTITO */
 
 .vid{
- /* padding: 5px;
- margin-left: 4%;*/
+ /* padding: 5px;*/
+ 
  -webkit-justify-content: space-around;
  justify-content: space-around;
 }
