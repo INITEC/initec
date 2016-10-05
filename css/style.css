@@ -4,7 +4,7 @@ body {
   font-family: helvetica;
 }
 .navbar-brand{
-  margin-top: -13px;
+  margin-top: -13px; 
 }
 .navbar-person{
   background: #1F5388;
@@ -257,7 +257,7 @@ div.raya{
     font-size: 10px;
   }
   img.inter{
-    margin-left: 4%;
+    margin-left: 28%;
   }
   img..allies-init{
     height: 200px;
@@ -304,7 +304,7 @@ div.raya{
   }
 
   img.inter{
-    margin-left: 10%;
+    margin-left: 50%;
   }
   video.video_grand{
     width: 350px;
@@ -482,7 +482,7 @@ img.allies-baj{
   margin-left: 10%;
   margin-top: 5%;
   width: 75%;
-  height: 160px ! important;
+  /*height: 160px ! important;*/
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 
