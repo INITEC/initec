@@ -109,8 +109,8 @@ if (isset($_POST['tipo_curso'])) {
         if (!empty($data)) {
             foreach ($data as $row) {
                 ?>
-                    <div class="ofert col-sm-4">
-                        <img src="<?php echo $row['img_tipo_curso']; ?>" class="img-responsive   inter" alt="IMAGEN <?php echo $row['desc_tipo']; ?>">
+                    <div class="col-xs-12 col-md-4 col-sm-12">
+                        <img src="<?php echo $row['img_tipo_curso']; ?>" class="  inter" alt="IMAGEN <?php echo $row['desc_tipo']; ?>">
                         <a class="cont_program" href="<?php echo $row['redi']; ?>" id="<?php echo $row['cod_tipo']; ?>"><h3 class="tittle"><?php echo $row['desc_tipo']; ?></h3></a>
                         <div class="raya"></div>
                         <div class="content">
