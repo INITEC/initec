@@ -165,12 +165,12 @@ if(isset($_POST['videos'])){
         if (!empty($dat)) {
             foreach ($dat as $row) {
                 ?>
-                    <div class="col-xs-12 col-sm-12 col-md-4 ">
-                        <div class="col-xs-2 col-md-2"></div>
-                        <div class="col-xs-8 col-md-5 vid">
+                    <div class="col-xs-12 col-sm-6 col-md-4 ">
+                        <div class=""></div>
+                        <div class="vid">
                             <?php echo $row['url_video']; ?>
                         </div>
-                        <div class="col-xs-2 col-md-2"></div>
+                        <div class=""></div>
                         <h3 class="text-center tittle col-xs-12"><?php echo $row['titulo']; ?></h3>
                         <p class="text-center msj-vid col-xs-12"><?php echo $row['descripcion'] ?></p>
                     </div>

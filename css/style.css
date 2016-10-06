@@ -190,6 +190,9 @@ div.raya{
   .nc{
     margin-left: 10% !important;
   }
+  .vid{
+    margin-left: 20% ! important;
+  }
 	.log{
 		margin-left: 12px;
 	}
@@ -234,7 +237,7 @@ div.raya{
 }
 @media screen and (min-width: 768px) and (max-width: 1041px){
   .vid{
-    margin-left: 5%;
+    margin-left: 10%;
   }
   .btn-loge{
   margin-left: 15px ! important;
@@ -277,7 +280,7 @@ div.raya{
     height: auto ! important;
   }
   .vid{
-    margin-left: 6%;
+    margin-left: 6% !important;
   }
   .nc{
     margin-left: 5%;
