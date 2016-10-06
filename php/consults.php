@@ -344,7 +344,7 @@ if(isset($_POST['head'])){
         extract($dat);
         ?>
         <img src="<?php echo $img_tipo_curso ?>" class="banner" alt="Programas de preincubación">
-        <div class="hero_pro">
+        <div class="hero_pro" >
             <hgroup>
                 <h1 class="ini"><?php echo $desc_tipo ?></h1>        
                 
@@ -357,6 +357,14 @@ if(isset($_POST['head'])){
         <?php
     }
 }
-
+    // echo '<div class="item" id="'.$max.'">';
+    //     echo '<a href=""><img src="'.$img_tipo_curso.'" alt="" class="slider"></a>';
+    //     echo '<div class="hero">';
+    //         echo '<hgroup>';
+    //             echo '<h1>'.$desc_tipo.'</h1>';
+    //             echo '<p>'.$explica_tipo.'</p>';
+    //         echo '</hgroup>';
+    //     echo '</div>';
+    // echo '</div>';  
 
 ?>
