@@ -165,10 +165,14 @@ if(isset($_POST['videos'])){
         if (!empty($dat)) {
             foreach ($dat as $row) {
                 ?>
-                    <div class="col-xs-12 col-sm-6 col-md-4 vid">
-                        <?php echo $row['url_video']; ?>
-                        <h3 class="text-center tittle"><?php echo $row['titulo']; ?></h3>
-                        <p class="text-center msj-vid"><?php echo $row['descripcion'] ?></p>
+                    <div class="col-xs-12 col-sm-12 col-md-4 ">
+                        <div class="col-xs-2 col-md-2"></div>
+                        <div class="col-xs-8 col-md-5 vid">
+                            <?php echo $row['url_video']; ?>
+                        </div>
+                        <div class="col-xs-2 col-md-2"></div>
+                        <h3 class="text-center tittle col-xs-12"><?php echo $row['titulo']; ?></h3>
+                        <p class="text-center msj-vid col-xs-12"><?php echo $row['descripcion'] ?></p>
                     </div>
 
                 <?php
@@ -193,7 +197,7 @@ if(isset($_POST['galeria'])){
                 if($cont==$n){
               ?>
                 
-                    <div class="col-xs-12 col-sm-7">
+                    <div class="col-xs-12 col-md-7">
                         <img class="gale enc" src="<?php echo $key['src_img']; ?>" alt="">
                     </div>
                     <?php
@@ -202,7 +206,7 @@ if(isset($_POST['galeria'])){
                 elseif(($cont-1)==$n)
                 {
                 ?>
-                    <div class="col-xs-12 col-sm-5">
+                    <div class="col-xs-12 col-md-5">
                         <img class="gale" src="<?php echo $key['src_img']; ?>" alt="">
                     </div>
                 <?php 

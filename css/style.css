@@ -231,8 +231,14 @@ div.raya{
   .btn-loge{
   margin-left: 15px ! important;
 }
+  img.allies-init{
+    height: auto ! important;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1041px){
+  .vid{
+    margin-left: 5%;
+  }
   .btn-loge{
   margin-left: 15px ! important;
 }
@@ -259,7 +265,7 @@ div.raya{
   img.inter{
     margin-left: 28%;
   }
-  img..allies-init{
+  img.allies-init{
     height: 200px;
   }
   video.video_grand{
@@ -270,6 +276,12 @@ div.raya{
   }
 }
 @media screen and (max-width: 535px){
+  img.allies-init{
+    height: auto ! important;
+  }
+  .vid{
+    margin-left: 6%;
+  }
   .nc{
     margin-left: 5%;
   }
@@ -478,17 +490,18 @@ img.allies-baj{
   margin-top: 5%;
   
 }
-.mov .item a img.allies-init, .allies-baj{
+.mov .item a img.allies-init{
   margin-left: 10%;
   margin-top: 5%;
   width: 75%;
-  /*height: 160px ! important;*/
+  height: 160px ! important;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 
 }
 .mov .item a img:hover{
   transform: scale(1.1);
+  -webkit-filter: grayscale(0%);
 }
 /* End carousel */
 
@@ -536,8 +549,8 @@ img.allies-baj{
 /* VIDEOS DE HISTORIAS DE EXTITO */
 
 .vid{
- /* padding: 5px;
- margin-left: 4%;*/
+ /* padding: 5px;*/
+ 
  -webkit-justify-content: space-around;
  justify-content: space-around;
 }
