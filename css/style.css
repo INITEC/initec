@@ -96,9 +96,9 @@ span.icon-bar{
 
 .hero_pro {
   position: absolute;
-  top: 50%;
+  top: 10%;
   left: 50%;
-  z-index: 3;
+  /*z-index: 3;*/
   color: #fff;
   text-align: center;
   text-transform: uppercase;
@@ -116,10 +116,11 @@ span.icon-bar{
   padding: 0;
 }
 .hero_pro h1 {
-  font-size: 6em;    
+  font-size: 5em;    
   font-weight: bold;
   margin: 0;
   padding: 0;
+  margin-top: 50%;
 }
 
 .fade-carousel .carousel-inner .item .hero {
@@ -189,6 +190,9 @@ div.raya{
   .nc{
     margin-left: 10% !important;
   }
+  .vid{
+    margin-left: 20% ! important;
+  }
 	.log{
 		margin-left: 12px;
 	}
@@ -196,12 +200,8 @@ div.raya{
     font-size: 3em; 
   }
   .hero_pro h1{
-    margin-top: -60%;
-    font-size: 3em; 
-  }
-  .hero_pro h3{
-    font-size: 1.4em;
-    margin-top: 2%;
+    margin-top: 63% ! important;
+    font-size: 2.5em; 
   }
   .hero_pro p{
     font-size: 8px;
@@ -237,7 +237,7 @@ div.raya{
 }
 @media screen and (min-width: 768px) and (max-width: 1041px){
   .vid{
-    margin-left: 5%;
+    margin-left: 10%;
   }
   .btn-loge{
   margin-left: 15px ! important;
@@ -252,12 +252,12 @@ div.raya{
   .hero p{
     font-size: 10px;
   }
-  .hero_pro h1{
-    margin-top: 10%;
-    font-size: 3.8em;
+  .hero_pro{
+    margin-top:;
   }
-  .hero_pro h3{
-    font-size: 2em;
+  .hero_pro h1{
+    margin-top: 65% !important;
+    font-size: 3.8em !important;
   }
   .hero_pro p{
     font-size: 10px;
@@ -280,7 +280,7 @@ div.raya{
     height: auto ! important;
   }
   .vid{
-    margin-left: 6%;
+    margin-left: 6% !important;
   }
   .nc{
     margin-left: 5%;
@@ -291,10 +291,10 @@ div.raya{
   .hero h1{
     font-size: 2em;
   }
-  .hero_pro h1{
+  .hero_pro h1.ini{
 
-    margin-top: -107%;
-    font-size: 2em;
+    margin-top: 140px !important;
+    font-size: 2em ! important;
   }
   .hero_pro button{
     width: 100%;
@@ -316,7 +316,8 @@ div.raya{
   }
 
   img.inter{
-    margin-left: 50%;
+    margin-left: 18%;
+    align-content: center;
   }
   video.video_grand{
     width: 350px;
@@ -501,7 +502,7 @@ img.allies-baj{
 }
 .mov .item a img:hover{
   transform: scale(1.1);
-  -webkit-filter: grayscale(0%);
+  
 }
 /* End carousel */
 
@@ -510,7 +511,7 @@ img.allies-baj{
 *******************************************/
 .inter{
   width: 290px;
-  margin-left: 8%;
+  margin-left: 6%;
   height: 190px;
   align-content: center;
   border-radius: 4px;
@@ -527,11 +528,12 @@ img.allies-baj{
 
 .infog{
   width: 100%;
-  margin-top: 3%;
   margin-bottom: 3%;
 }
 
+.ini{
 
+}
 /*CONTENIDO CURSOS COMPLEMENTARIOS*/
 
 .conte{

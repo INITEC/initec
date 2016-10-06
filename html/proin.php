@@ -128,7 +128,7 @@
 	<div class="text-center col-xs-12">
 		<h1>Historias de éxito</h1>
 	</div>
-<div class="historias col-xs-12">
+<div class="historias ">
 	
 	<!-- <div class="col-xs-12 col-sm-6 col-md-4 vid">
 		<iframe width="400" height="200" src="https://www.youtube.com/embed/s6ltxWAY_uA" frameborder="0" allowfullscreen></iframe>
