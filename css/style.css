@@ -10,7 +10,7 @@ body {
   background: #1F5388;
   border-radius: 0px;
 }
-.nav .dropdown a{
+.nav .dropdown a{ 
   margin-top: 4px;
   margin-right: 30px;
   background: #FFFFFF ! important;
@@ -266,10 +266,11 @@ div.raya{
     margin-left: 28%;
   }
   img.allies-init{
-    height: 200px;
+    height: auto;
   }
   video.video_grand{
     width: 600px;
+    margin-left: 6% ! important;
   }
   #btn-fb{
     margin-left: 33% ! important;
@@ -320,8 +321,8 @@ div.raya{
     align-content: center;
   }
   video.video_grand{
-    width: 350px;
-    margin-left: 5%;
+    width: 360px;
+    margin-left: 7% ! important;
     align-content: center;
     -webkit-align-content: center;
   }
@@ -495,7 +496,7 @@ img.allies-baj{
   margin-left: 10%;
   margin-top: 5%;
   width: 75%;
-  height: 160px ! important;
+  height: 100px ! important;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 

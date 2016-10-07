@@ -26,7 +26,7 @@ if (isset($_REQUEST['inicia'])) {
     $result->bindParam(1,$documento);
     $result->bindParam(2,$pass);
     
-
+ 
     $result->execute();
     $res=$result->fetchAll();
     if (!empty($res)) {
@@ -140,7 +140,7 @@ if (isset($_POST['aliados'])) {
                 ?>
                 
                     
-                      <div class="col-md-3">
+                      <div class="col-md-2">
                         <a class="" href="#"><img class="allies-init" alt="" src="<?php echo $row['logo']; ?>"></a>
                       </div>                            
 
@@ -357,14 +357,5 @@ if(isset($_POST['head'])){
         <?php
     }
 }
-    // echo '<div class="item" id="'.$max.'">';
-    //     echo '<a href=""><img src="'.$img_tipo_curso.'" alt="" class="slider"></a>';
-    //     echo '<div class="hero">';
-    //         echo '<hgroup>';
-    //             echo '<h1>'.$desc_tipo.'</h1>';
-    //             echo '<p>'.$explica_tipo.'</p>';
-    //         echo '</hgroup>';
-    //     echo '</div>';
-    // echo '</div>';  
 
 ?>

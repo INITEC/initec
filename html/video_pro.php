@@ -1,7 +1,7 @@
 <div class="container">
 	<h1>Titulo del video</h1>
 	<div class="col-md-8 col-xs-12">
-		<video class="video_grand" controls>
+		<video class="video_grand" controls> 
 			<source src="video/video1.mp4" type="video/mp4">
 			</video>
 			<p class="text-justify col-md-12">

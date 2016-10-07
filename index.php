@@ -182,7 +182,7 @@ function cerrar(){
             <button type="submit" class="btn btn-primary btn-loge" name="inicia">INICIO SESION</button>    
         </div>
         <div class="col-xs-4 col-md-5"></div>
-    </form><br>
+    </form><br><br>
 
 
     

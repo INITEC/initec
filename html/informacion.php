@@ -1,5 +1,5 @@
 
-<div class="banner">
+<div class="banner_info">
     <img src="img/IMG_1709.jpg" class="banner" alt="Programas de preincubación">
     <div class="hero_pro">
             <hgroup> 
