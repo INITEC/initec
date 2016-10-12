@@ -61,18 +61,18 @@
 </div> <!-- end .container -->
 </div> <!-- end #footer-widgets -->
 
-<!-- <div id="sub-floor">
+<div id="sub-floor">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 copyright">
-         Copy right INITEC © 2016
+        <div class="col-md-4 copyright text-center">
+         Copy Right INITEC © 2016
      </div>
      <div class="col-md-4 col-md-offset-4 attribution">
-         Desarrollado por  <a target="_blank" href="#">José C.</a> .
+         <p class="text-center">Desarrollado por <br><a target="_blank" href="https://www.facebook.com/Jcespedes10">José Céspedes </a> - <a target="_blank" href="https://www.facebook.com/chiniy0">Frank Gago </a> - <a target="_blank" href="https://www.facebook.com/CHANAJOHN?fref=hovercard"> John Chañag</a> .</p>
      </div>
  </div> 
 </div>
-</div> -->
+</div>
 
 </footer>
 

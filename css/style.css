@@ -461,11 +461,14 @@ a img.youtube:hover{
 }
 
 #sub-floor {
-    color: #AAA;
-    background: #031634 none repeat scroll 0% 0%;
+    color: #FFFFFF;
+    background: #1F5388 none repeat scroll 0% 0%;
     padding: 10px 0px;
+    font-weight: bold;
 }
-
+.attribution a{
+  color: #FFF;
+}
 .input-fot{
   background-color: #1F5388 !important; 
   border: none;
